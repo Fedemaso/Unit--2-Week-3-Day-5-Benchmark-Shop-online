@@ -33,8 +33,8 @@ const getProductData = function () {
                     <p class="card-text">${product.description}</p>
                     <p class="card-text">${product.brand}</p>
                     <p class="card-text fw-bold">${product.price}€</p>
-                    <a href="./details.html?id=${product._id}" class="btn btn-primary">Scopri di più</a>
-                    <button type="button" class="btn btn-warning" onclick="editProduct('${product._id}')">Modifica</button>
+                    <a href="./details.html?id=${product._id}" class="btn btn-primary m-2 fs-6">Scopri di più</a>
+                    <button type="button" class="btn btn-warning m-2 fs-6" onclick="editProduct('${product._id}')">Modifica</button>
                   </div>
                 </div>
               `;
